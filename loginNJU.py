@@ -27,8 +27,10 @@ def login():
     # Clear the input fields
     user.clear()
     password.clear()
-    user.send_keys("DZ1933019")
-    password.send_keys("dh/SB/321")
+    # change here
+    user.send_keys("your student ID")  
+    # change here
+    password.send_keys("your password")
     time.sleep(1)
     browser.find_element_by_id("loginBtn").click()
 
